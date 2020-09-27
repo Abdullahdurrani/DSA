@@ -1,0 +1,16 @@
+﻿  main.cpp
+D:\abdullah\GitHub\Queue-template\Queue-template\queue.cpp(78,1): error C2561: 'queue<float>::dequeue': function must return a value
+D:\abdullah\GitHub\Queue-template\Queue-template\queue.h(13): message : see declaration of 'queue<float>::dequeue'
+D:\abdullah\GitHub\Queue-template\Queue-template\queue.cpp(74): message : while compiling class template member function 'T queue<T>::dequeue(void)'
+          with
+          [
+              T=float
+          ]
+D:\abdullah\GitHub\Queue-template\Queue-template\main.cpp(26): message : see reference to function template instantiation 'T queue<T>::dequeue(void)' being compiled
+          with
+          [
+              T=float
+          ]
+D:\abdullah\GitHub\Queue-template\Queue-template\main.cpp(7): message : see reference to class template instantiation 'queue<float>' being compiled
+  queue.cpp
+  Generating Code...
